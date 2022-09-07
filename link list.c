@@ -76,7 +76,7 @@ typedef struct _node{
         if(temp->next){
             temp->next=temp->next->next;
         }else{
-            printf("无法删除");
+            printf("无法删除\n");
         }
         return head;
     }
